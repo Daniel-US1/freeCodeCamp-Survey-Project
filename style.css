@@ -1,0 +1,108 @@
+body {
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 1.0), rgba(136, 136, 206, 0.9) ), url(./reg_images/daniel-freeCodeCamp.jpg);
+    background-size: cover;
+    width: 95vw;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background-color: #1b1b50;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size:  18px;
+}
+
+h1, p {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+h1 {
+    letter-spacing: 2px;
+    padding-bottom: 3.5px;
+    padding-top: 5rem;
+}
+
+p {
+    letter-spacing: 1px;
+    padding-bottom: 3rem;
+    padding-top: none;
+}
+  
+.menu {
+    background-color: #1b1b32;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    padding: 20px;
+    width: 80%;
+}
+  
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    padding-bottom: 2em;
+    width: 100%;
+    padding-left: none;
+}
+  
+fieldset {
+    border: none;
+    border-bottom: 3px solid #3b3b4f;
+    width: 95%;
+}
+  
+fieldset:last-of-type {
+    border-bottom: none;
+}
+  
+label {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0;
+}
+  
+  
+input, select, textarea {
+    border-radius: 2px;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+    width: 100%;
+    margin-right: none;
+}
+  
+input, textarea {
+    background-color: rgb(250, 250, 250);
+    border: 1px solid #ffffff;
+    /* border: none; */
+    color: white;
+}
+  
+.inline {
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+    width: unset;
+}
+  
+input[type=submit] {
+    background-color: #219c21;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    font-size: 1.5rem;
+    height: 2em;
+    letter-spacing: 1.5px;
+    margin: 0 auto;
+    width: 60%;
+}
+  
+input[type=submit]:hover {
+    color: wheat;
+    background-color: rgb(141, 19, 19);
+}
+
+label[id="suggestion"] {
+    padding-top: 2rem;
+}
